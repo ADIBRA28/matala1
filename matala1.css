@@ -1,0 +1,171 @@
+#red_fruit {
+    background-color: rgb(254, 126, 126);
+    gap: 16px;
+}
+
+#yellow_fruit {
+    background: rgb(237, 223, 156);
+    gap: 16px;
+}
+
+#orange_fruit {
+    background-color: rgb(252, 192, 81);
+    gap: 16px;
+}
+
+#purple_fruit {
+    background-color: rgb(247, 179, 247);
+    gap: 16px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-style:oblique;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 150px;
+    background-image: url("images.jpg");
+    color: rgb(1, 1, 1);
+    margin: 0;
+    border: 10px;
+    
+}
+
+section div {
+    text-align: center;
+    font-size: large;
+    font-style: normal;
+}
+
+.block p {
+    text-align: start;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+ /* #footer-id { */
+    /* display: flex;
+    align-content: center; */
+    /* background-image:url("images.jpg");
+    color: black; */
+/* }  */
+
+/* #footer-id li {
+    display: inline;
+    box-shadow:0 0 5px;
+    gap:20px ;   
+} */
+
+.list-class {
+    display: flex;
+    font-style: italic;
+    list-style-type: none;
+    background-color:blanchedalmond;
+    font-size: 25px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    border-radius: 10px;    
+}
+nav ul li {
+    display: inline;
+    border-radius: 5px;
+    box-shadow:0 0 5px;
+    gap:20px ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    display:flex;
+    flex-wrap: wrap;
+    width: 200;
+    height: 320;
+    overflow: hidden;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid darkslategrey; 
+    background-color: blanchedalmond;
+      
+}
+ .block section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    border-radius: 10px;
+    margin-bottom: 25px;
+ }
+
+ .block section img {
+    height: 100%;
+ }
+
+.card img {
+     width: 100%;
+    max-height: 100px; 
+    object-fit: cover; 
+}    
+.photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 200px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+ div h2 {
+    font-style: oblique; 
+    text-align: center;
+}
+ .flex-box {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+background-color: bisque;
+}  
+
+
+.flex-box.card img {
+    width: 200;
+    height: auto;
+}
+
+.flex-box div p {
+    margin: 2%;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+#footer-id .list-class {
+ display: flex;
+ text-align: center;
+ gap: 20px;  
+ padding-top: 40px;
+ padding: 40px;
+ justify-content: space-evenly; 
+ background-image: url("images.jpg"); 
+ justify-content: center;
+}
+
+.bottom div{
+ padding-bottom: 50px;
+ padding-right: 0%;
+}
+
+#footer-id .list-class li {
+    background-color: bisque;
+}
+
+
